@@ -20,7 +20,7 @@ const Looney = () => {
 
     return (
         <div className='max-w-[390px] relative' >
-            <video ref={videoRef} autoPlay preload='auto'>
+            <video ref={videoRef} autoPlay loop preload='auto' >
                 <source src='/images/morpheus/morpheus-talking.mp4' type='video/mp4' />
             </video>
 
