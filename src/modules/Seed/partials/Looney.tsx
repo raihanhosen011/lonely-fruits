@@ -3,29 +3,18 @@ import React, { useEffect, useRef, useState } from 'react'
 
 const Looney = () => {
 
-    // states
-    const [playing, setPlaying] = useState(false);
-    const [muted, setMuted] = useState(false);
-
     // refs
     const videoRef = useRef(null);
 
     // play and pause
-    const handlePlayPause = () => {
+    const handlePlay = () => {
         const video: any = videoRef.current;
-
-        if (playing) {
-            video.pause();
-            setPlaying(false);
-        } else {
-            video.play();
-            setPlaying(true);
-        }
+        video.play();
     };
 
     // effects
     useEffect(() => {
-        handlePlayPause()
+        handlePlay()
     }, [videoRef])
 
 
