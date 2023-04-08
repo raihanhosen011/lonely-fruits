@@ -45,7 +45,7 @@ const Looney = () => {
                         </div>
                     </div>
 
-                    <a href='https://twitter.com/looneyfruits' target='_blank' >
+                    <a href='https://twitter.com/looneyfruits' target='_blank' rel="noreferrer" >
                         <div className='w-[10px] absolute bottom-[199px] left-[85px] cursor-pointer transition-all duration-300 hover:scale-[1.7]' >
                             <Image src='/images/morpheus/red-seed.png' layout='responsive' width={1} height={1} />
                         </div>
@@ -63,7 +63,7 @@ const Looney = () => {
                         <h1 className='text-[#424242] text-[17px] uppercase' > Discord </h1>
                     </div>
 
-                    <a href='https://discord.com/' target='_blank' >
+                    <a href='https://discord.com/' target='_blank' rel="noreferrer" >
                         <div className='w-[10px] absolute bottom-[199px] right-[85px] cursor-pointer transition-all duration-300 hover:scale-[1.7]' >
                             <Image src='/images/morpheus/blue-seed.png' layout='responsive' width={1} height={1} />
                         </div>
