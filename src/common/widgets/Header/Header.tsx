@@ -24,11 +24,11 @@ const Header = () => {
 
           <div className='gap-6 hidden md:flex' >
             {menuItems.map((e: MenuProps, i: number) => (
-                <Menu key={i} {...e} />
+              <Menu key={i} {...e} />
             ))}
 
             {socialMedia.map((e: any, i: number) => (
-              <a href={e.link} target='_blank' className='mt-[8px]' >
+              <a key={i} href={e.link} target='_blank' rel="noreferrer" className='mt-[8px]' >
                 <span className={cx('text-[26px] text-white', e.className)} > {icons[e.icon]} </span>
               </a>
             ))}
