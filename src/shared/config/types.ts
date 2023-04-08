@@ -16,7 +16,6 @@ export type ButtonProps = {
     translate?: string;
     sizeClass?: string;
     fontSize?: string;
-    //
     loading?: boolean;
     disabled?: boolean;
     secondary?: boolean;
@@ -25,5 +24,23 @@ export type ButtonProps = {
     targetBlank?: boolean;
     onClick?: () => void;
     children?: ReactNode;
-    icon ?: string;
+    icon?: string;
+}
+
+
+// menu props
+export type MenuProps = {
+    src: string;
+    className: string;
+    label: string;
+    to : string
+}
+
+
+// core data types
+export type CoreDataTypes = {
+    label: string,
+    description: {
+        __html: string;
+    }
 }

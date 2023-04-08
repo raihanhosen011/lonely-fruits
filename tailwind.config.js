@@ -4,13 +4,10 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                primary: "#4A5AFF",
-                "light-gradient" : "linear-gradient('#111827', '#4A5AFF')",
-                "dark-gradient" : "linear-gradient('#414FDA', '#FFFFFF')",
+                primary: "#4A5AFF"
             },
             fontFamily: {
-                primary: ["Inter", "sans-serif"],
-                graphik: ["Graphik", "sans-serif"],
+                primary: ["Brazilia", "sans-serif"]
             },
         },
     },

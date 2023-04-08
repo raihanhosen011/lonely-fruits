@@ -1,8 +1,12 @@
 // import icons 
-import { SiDiscord } from 'react-icons/si'
+import { RiDiscordFill } from 'react-icons/ri'
+import { BsTwitter } from 'react-icons/bs'
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 
 // export 
 export const icons : any = {
-    discord : <SiDiscord />
+    discord : <RiDiscordFill />,
+    twitter : <BsTwitter />,
+    hamburger : <GiHamburgerMenu />
 }

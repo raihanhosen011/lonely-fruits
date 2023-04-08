@@ -5,8 +5,8 @@ import HomePage from "@modules/Home";
 const Home: NextPage = () => {
     return (
         <>
-            <div className="__home">
-                 <HomePage />
+            <div id="__home">
+                <HomePage />
             </div>
         </>
     );

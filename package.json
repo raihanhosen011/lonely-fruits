@@ -9,6 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/css": "^11.10.5",
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.9.3",
+    "@mantine/core": "^5.10.2",
+    "@mantine/hooks": "^5.10.2",
+    "@mantine/next": "^5.10.2",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/line-clamp": "^0.4.2",
     "classnames": "^2.3.2",
